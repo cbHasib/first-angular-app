@@ -10,6 +10,9 @@ export class PracticeTwoDatabindingComponent {
   username: string= '';
   resetButtonDisable: boolean = false;
 
+
+  
+
   handleReset(){
     this.username = ''
   }
